@@ -24,7 +24,8 @@ struct binary_tree_s
 typedef struct binary_tree_s binary_tree_t;
 
 /* PROTOTYPES */
-
+/* File: binary_tree_print.c */
+void binary_tree_print(const binary_tree_t *);
 /* File: 0-binary_tree_node.c */
 binary_tree_t *binary_tree_node(binary_tree_t *parent, int value);
 /* File: 1-binary_tree_insert_left.c */
